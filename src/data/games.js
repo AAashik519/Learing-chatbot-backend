@@ -1,0 +1,42 @@
+export const GAMES = [
+  {
+    id: 'game-meow',
+    prompt: 'I am a small animal. I say meow. What am I?',
+    displayAnswer: 'Cat',
+    acceptedAnswers: ['cat', 'kitten'],
+    quickReplies: ['Cat', 'Dog', 'Bird'],
+    hint: 'This animal says meow.',
+  },
+  {
+    id: 'game-yellow',
+    prompt: 'I am a fruit. I am long and yellow. What am I?',
+    displayAnswer: 'Banana',
+    acceptedAnswers: ['banana'],
+    quickReplies: ['Banana', 'Apple', 'Grape'],
+    hint: 'This fruit is yellow.',
+  },
+  {
+    id: 'game-count',
+    prompt: 'How many paws does one cat have? Two, four, or ten?',
+    displayAnswer: 'Four',
+    acceptedAnswers: ['four', '4'],
+    quickReplies: ['Two', 'Four', 'Ten'],
+    hint: 'Count the paws: one, two, three, four.',
+  },
+  {
+    id: 'game-sky',
+    prompt: 'I am up high on a sunny day and I am blue. What am I?',
+    displayAnswer: 'Sky',
+    acceptedAnswers: ['sky', 'the sky'],
+    quickReplies: ['Sky', 'Grass', 'Shoe'],
+    hint: 'Look up. It is the sky.',
+  },
+  {
+    id: 'game-thanks',
+    prompt: 'Someone gives you a crayon. Which kind words do you say?',
+    displayAnswer: 'Thank you',
+    acceptedAnswers: ['thank you', 'thanks'],
+    quickReplies: ['Thank you', 'Go away', 'Mine'],
+    hint: 'Kind children say thank you.',
+  },
+];
